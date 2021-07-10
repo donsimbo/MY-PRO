@@ -1,0 +1,173 @@
+body{
+    background-image: url('/image/layout2.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.main{ 
+    width: 50%;
+background: transparent;
+margin-left: 25%;
+margin-top: 5%;
+}
+
+.form{
+    margin-left: 10%;
+}
+h2{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+p{
+    margin-left: 12%;
+}
+.first{
+    color: white;
+}
+label{
+    color: white;
+    margin-left: 5%;
+}
+.fills{
+    display: flex;
+}
+
+.one{
+  margin-left: 20%;  
+}
+.two{
+    margin-left: 13.5%;
+}
+.four{
+    margin-left: 20%;
+}
+.fill{
+    width: 90%;
+    margin-left: 5%;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+.a{
+    margin-left: 5%;
+    text-decoration: none;
+}
+.a:hover{
+    color: lightyellow;
+}
+select{
+  display: run-in;
+}
+
+.second{
+    color: cornsilk;
+}
+
+.second a{
+    text-decoration: none;
+    }
+
+.second a:hover{
+    color: lightseagreen;
+}    
+button{
+    border: 1px solid black;
+    border-radius: 2px;
+    outline: none;
+    background-color: black;
+    color: blanchedalmond;
+    width: 70%;
+    margin-left: 5%;
+
+}
+button:hover{
+    background-color: cadetblue;
+}
+/*mobile version
+@media only screen and (max-width: 800px){
+    body{
+        background-image: url('/image/layout2.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+    }
+    
+    .main{ 
+        width: 100%;
+    background: transparent;
+    border-radius: 5px;
+    border: 5px solid rgb(43, 42, 42);
+    height: 100vh;
+    }
+    
+    .form{
+        margin-left: 10%;
+        display: block;
+    }
+    h2{
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+    p{
+        margin-left: 12%;
+    }
+    .first{
+        color: white;
+    }
+    label{
+        color: white;
+        margin-left: 5%;
+    }
+    .fills{
+        display: flex;
+    }
+    
+    .one{
+      margin-left: 20%;  
+    }
+    .two{
+        margin-left: 13.5%;
+    }
+    .four{
+        margin-left: 20%;
+    }
+    .fill{
+        width: 90%;
+        margin-left: 5%;
+        height: 30px;
+        border: none;
+        outline: none;
+    }
+    .a{
+        margin-left: 5%;
+        text-decoration: none;
+    }
+    .a:hover{
+        color: lightyellow;
+    }
+    select{
+      display: run-in;
+    }
+    .second{
+        background-image: url('/image/layout.jpeg');
+    }
+    button{
+        border: 1px solid black;
+        border-radius: 2px;
+        outline: none;
+        background-color: black;
+        color: blanchedalmond;
+        width: 70%;
+        margin-left: 5%;
+    
+    }
+    button:hover{
+        background-color: cadetblue;
+    }
+}*/ 
+

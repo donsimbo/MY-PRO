@@ -1,0 +1,1055 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* For deskstop and large devices*/
+@media only screen and (min-width: 1200px ){
+
+    .overview{
+        width: 100%;
+        float: left;
+        display: flex;
+        height:100vh;
+        position:relative;
+    }
+    
+    .side{
+        float: left;
+        width: 5%;
+        height: 100vh;
+        background: #e2293f;
+        position:fixed;
+        top:17.3vh;
+    }
+
+    .side .navigation{
+        margin-top:10px;
+        margin-left:-25px;
+    }
+
+    .navigation a, .navigation li{
+        text-decoration: none;
+        list-style:none;
+        padding-top:65px;
+        color:#d2dae2;
+    }
+
+    .navigation a:hover{
+        color:darkorange;
+    }
+
+    .fa-home{
+        font-size:30px;
+    }
+
+    .fa-user{
+        font-size:30px;
+    }
+
+    .fa-tools{
+        font-size:30px;
+    }
+
+    .fa-gamepad{
+        font-size:30px;
+    }
+
+    .fa-blog{
+        font-size:30px;
+    }
+    
+    .main{
+        float: left;
+        width: 100%;
+        min-height: 700px;
+        background: transparent;
+    }
+
+    #header{
+        width:100%;
+        height:120px;
+        float:left;
+        background:#1d1c1c;
+        position:fixed;
+        z-index:2;
+        text-align: center;
+    }
+
+    #header h1{
+        text-align:center;
+        font-family: century gothic;
+        color:white;
+    }
+    /*first section */
+    .banner{
+        width:100%;
+        height:400px;
+        float:left;
+        margin-top:120px;
+    }
+
+    .slider{
+        width:90%;
+        height:550px;
+        float:left;
+        margin-left:5%;
+        background:transparent;
+    }
+
+    .other1{
+        width:5%;
+        height:550px;
+        float:left;
+        background:rgba(20,20,20);
+    }
+
+     /*second section */
+    .next{
+        width:100%;
+        height:500px;
+        float:left;
+        background:rgb(49,49,49);
+        margin-top:150px;
+    }
+
+    .next-header{
+        width:95%;
+        height:30px;
+        float:left;
+        background:transparent;
+        margin-left:7%;
+    }
+
+    .dot-next{
+        width:15px;
+        height:20px;
+        background:#ee293f;
+        margin-top:3px;
+        clip-path: polygon(50% 20%, 100% 0, 100% 80%, 0% 50%);
+    }
+
+    .next-header h3{
+        margin-left:180px;
+        font-size:22px;
+        color:white;
+        font-family:courier new;
+        font-style:italic;
+        display:flex;
+    }
+
+    .next-detail{
+        width:95%;
+        height:300px;
+        margin-top:100px;
+        float:left;
+        background:transparent;
+    }
+
+    .all-move{
+        width:90%; 
+        margin-left:5%;
+        float:left;
+        height:300px;
+    }
+
+    .runner{
+        width:50%;
+        height:300px;
+        float:left;
+        margin-left: 10%;
+    }
+
+    .move{
+        width:60%; 
+        height:300px; 
+        background-color:transparent;
+        float: left;
+    }
+
+    .caro1{
+        width:19%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+    }
+
+    .caro2{
+        width:19%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:1%;
+    }
+
+    .caro3{
+        width:19%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:1%;
+    }
+
+    .caro4{
+        width:19%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:1%;
+    }
+
+    .caro5{
+        width:19%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+    }
+
+    .caro6{
+        width:19%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:1%;
+    }
+
+    .caro7{
+        width:19%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:1%;
+    }
+
+    .caro8{
+        width:19%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:1%;
+    }
+
+    .caro9{
+        width:19%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+    }
+
+    .caro10{
+        width:19%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:1%;
+    }
+
+    .caro11{
+        width:19%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:1%;
+    }
+
+    .caro12{
+        width:19%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:1%;
+    }
+
+    .other2{
+        width:5%;
+        height:500px;
+        float:left;
+        background:#e2293f;
+    }
+
+     /*third section */
+    .next2{
+        width:100%;
+        height:400px;
+        float:left;
+        border-top:1px solid black;
+    }
+
+    #next-detail2{
+        width:95%;
+        min-height:400px;
+        float:left;
+        background: transparent;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 100px;
+        overflow-x: scroll;
+        
+        
+    }
+
+    .mg{
+        height: 150px;
+        width: 240px;
+        border-radius: 10px;
+    }
+
+    #maincard{
+        height: 290px ;
+        width: 240px; ;
+        background-color: blue;
+        text-align: center;
+
+    }
+
+    .other3{
+        width:5%;
+        height:400px;
+        float:left;
+        background:rgb(20,20,20);
+    }
+
+     /*fourth section */
+    .next3{
+        width:100%;
+        height:400px;
+        float:left;
+        border-top:1px solid black;
+    }
+
+    .next-detail3{
+        width: 95%;
+        height:400px;
+        float:left;
+        background:transparent;
+    }
+
+    .other4{
+        width:5%;
+        height:400px;
+        float:left;
+        background:#e2293f;
+    }
+    
+    .aside{
+        float:left;
+        width: 5%;
+        height: 100vh;
+        background:rgba(239,239,239,0.1);
+        position:fixed;
+        left:1282px;
+        top:17.3vh;
+    }
+
+    .aside-navigation{
+        margin-top:10px;
+        margin-left:-14px;
+    }
+
+    .aside-navigation li{
+        text-decoration: none;
+        list-style:none;
+        padding-top:40px;
+    }
+
+    .aside-navigation a{
+        color:#d2dae2;
+    }
+
+    .fa-facebook-f{
+        font-size:30px;
+        color:rgb(85,85,255);
+    }
+
+    .fa-twitter{
+        font-size:30px;
+        color:rgb(138,138,255);
+    }
+
+    .fa-instagram{
+        font-size:30px;
+        color:#ee293f;
+    }
+
+    .fa-envelope{
+        font-size:30px;
+        color:darkorange;
+    }
+
+    .fa-youtube{
+        font-size:30px;
+        color:#ee293f;
+    }
+    
+}
+
+/* For Tablets */
+@media only screen and (min-width: 801px) and (max-width:1199px) {
+
+    .overview{
+        width: 100%;
+        float: left;
+        display: flex;
+        height:100vh;
+        flex-direction: column;
+    }
+    
+    .side{
+        float: left;
+        width: 100%;
+        height: 10vh;
+        background: #1d1c1c;
+        position:fixed;
+        z-index: 2;
+    }
+
+    .side .navigation{
+        text-align:center;
+        margin-top:20px;
+        display:flex;
+        justify-content: space-evenly;
+    }
+
+    .navigation a, .navigation li{
+        text-decoration: none;
+        list-style:none;
+        color:#d2dae2;
+        float:left;
+    }
+
+    .navigation a:hover{
+        color:darkorange;
+    }
+
+    .fa-home{
+        font-size:20px;
+    }
+
+    .fa-user{
+        font-size:20px;
+    }
+
+    .fa-tools{
+        font-size:20px;
+    }
+
+    .fa-gamepad{
+        font-size:20px;
+    }
+
+    .fa-blog{
+        font-size:20px;
+    }
+    
+    .main{
+        float: left;
+        width: 100%;
+        min-height: 80vh;
+        background:transparent;
+    }
+
+    #header{
+        width:100%;
+        height:50px;
+        float:left;
+        background:transparent;
+        margin-top:10vh;
+    }
+
+    #header h1{
+        text-align: center;
+        font-size:20px;
+        font-family: century  gothic;
+        margin-top:15px;
+    }
+
+    .slider{
+        width:100%;
+        height:400px;
+        float:left;
+        background:lightsalmon;
+    }
+
+    .next-detail{
+        width:100%;
+        min-height:500px;
+        float:left;
+        background:lightgray;
+        margin-top:150px;
+    }
+
+    .next-header{
+        width:95%;
+        height:30px;
+        float:left;
+        background:transparent;
+        margin-top:50px;
+    }
+
+    .dot-next{
+        width:15px;
+        height:20px;
+        background:#ee293f;
+        margin-top:3px;
+        clip-path: polygon(50% 20%, 100% 0, 100% 80%, 0% 50%);
+    }
+
+    .next-header h3{
+        margin-left:180px;
+        font-size:22px;
+        color:white;
+        font-family:courier new;
+        font-style:italic;
+        display:flex;
+    }
+
+    .all-move{
+        width:100%;
+        height:500px; 
+        background:red;
+    }
+
+    .runner{
+        width:10%;
+        height:300px;
+        background:blue;
+    }
+
+    .move{
+        width:500px; 
+        height:300px; 
+        background-color: pink;
+    }
+
+    .caro1{
+        width:20%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:10%;
+    }
+
+    .caro2{
+        width:20%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:1%;
+    }
+
+    .caro3{
+        width:20%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:1%;
+    }
+
+    .caro4{
+        width:20%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:1%;
+    }
+
+    .caro5{
+        width:24%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+    }
+
+    .caro6{
+        width:24%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:2%;
+    }
+
+    .caro7{
+        width:24%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:2%;
+    }
+
+    .caro8{
+        width:24%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:2%;
+    }
+
+    .caro9{
+        width:24%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+    }
+
+    .caro10{
+        width:24%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:2%;
+    }
+
+    .caro11{
+        width:24%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:2%;
+    }
+
+    .caro12{
+        width:24%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:2%;
+    }
+
+    #next-detail2{
+        width:100%;
+        height:400px;
+        float:left;
+        background:royalblue;
+       
+    }
+
+    .next-detail3{
+        width:100%;
+        height:400px;
+        float:left;
+        background:royalblue;
+    }
+    
+    .aside{
+        float: left;
+        width: 100%;
+        height: 10vh;
+        background: #1d1c1c;
+        position:fixed;
+        top:90vh;
+    }
+    .aside-navigation{
+        margin-top:10px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+    }
+
+    .aside-navigation li{
+        text-decoration: none;
+        list-style:none;
+    }
+
+    .aside-navigation a{
+        color:#d2dae2;
+    }
+
+    .fa-facebook-f{
+        font-size:30px;
+        color:rgb(85,85,255);
+    }
+
+    .fa-twitter{
+        font-size:30px;
+        color:rgb(138,138,255);
+    }
+
+    .fa-instagram{
+        font-size:30px;
+        color:#ee293f;
+    }
+
+    .fa-envelope{
+        font-size:30px;
+        color:darkorange;
+    }
+
+    .fa-youtube{
+        font-size:30px;
+        color:#ee293f;
+    }
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 800px){
+    .overview{
+        display:flex;
+        min-height:100vh;
+        width:100%;
+        flex-direction: column;
+    }
+
+    .side{
+        float: left;
+        width: 100%;
+        height:10vh;
+        background: #1d1c1c;
+        position:fixed;
+        z-index: 2;
+    }
+
+
+    .side .navigation{
+        text-align:center;
+        margin-top:2.5vh;
+        display:flex;
+        justify-content: space-evenly;
+    }
+
+    .navigation a, .navigation li{
+        text-decoration: none;
+        list-style:none;
+        color:#d2dae2;
+        float:left;
+    }
+
+    .navigation a:hover{
+        color:darkorange;
+    }
+
+    .fa-home{
+        font-size:20px;
+    }
+
+    .fa-user{
+        font-size:20px;
+    }
+
+    .fa-tools{
+        font-size:20px;
+    }
+
+    .fa-gamepad{
+        font-size:20px;
+    }
+
+    .fa-blog{
+        font-size:20px;
+    }
+
+    .main{
+        float: left;
+        width: 100%;
+        min-height: 80vh;
+        background: transparent;
+    }
+
+    #header{
+        width:100%;
+        height:50px;
+        float:left;
+        background:transparent;
+        margin-top:10vh;
+    }
+
+    #header h1{
+        font-size:20px;
+        font-family:century gothic;
+        text-align: center;
+        margin-top:15px;
+    }
+
+    .slider{
+        width:100%;
+        height:400px;
+        float:left;
+        background:lightsalmon;
+    }
+
+    .next-detail{
+        width:100%;
+        min-height:400px;
+        float:left;
+        background:rgb(49,49,49);
+        margin-top:150px;
+    }
+
+    .next-header{
+        width:95%;
+        height:30px;
+        float:left;
+        background:transparent;
+        margin-top:25px;
+    }
+
+    .dot-next{
+        width:15px;
+        height:20px;
+        background:#ee293f;
+        margin-top:3px;
+        clip-path: polygon(50% 20%, 100% 0, 100% 80%, 0% 50%);
+    }
+
+    .next-header h3{
+        margin-left:100px;
+        font-size:22px;
+        color:white;
+        font-family:courier new;
+        font-style:italic;
+        display:flex;
+    }
+
+    .all-move{
+        width:98%; 
+        margin-left:1%;
+        min-height:800px;
+    }
+
+    .runner{
+        width:60%; 
+        min-height:800px; 
+        background:transparent; 
+    }
+
+    .move{
+        width:200px;
+        min-height:800px;
+        display:flex;
+        flex-wrap:wrap;
+        background-color:rgb(49,49,49);
+    }
+
+    .caro1{
+        width:70%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:14.5%;
+    }
+
+    .caro2{
+        width:70%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:14.5%;
+    }
+
+    .caro3{
+        width:70%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:14.5%;
+    }
+
+    .caro4{
+        width:70%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:14.5%;
+    }
+
+    .caro5{
+        width:70%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:14.5%;
+    }
+
+    .caro6{
+        width:70%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:14.5%;
+    }
+
+    .caro7{
+        width:70%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:14.5%;
+    }
+
+    .caro8{
+        width:70%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:14.5%;
+    }
+
+    .caro9{
+        width:70%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:14.5%;
+    }
+
+    .caro10{
+        width:70%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:14.5%;
+    }
+
+    .caro11{
+        width:70%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:14.5%;
+    }
+
+    .caro12{
+        width:70%; 
+        height:280px; 
+        background:gray; 
+        margin-top:10px; 
+        border-radius:10px; 
+        float:left;
+        margin-left:14.5%;
+    }
+
+    #next-detail2{
+        width:100%;
+        height:400px;
+        float:left;
+        background:lightgreen;
+    }
+
+    .next-detail3{
+        width:100%;
+        height:400px;
+        float:left;
+        background:royalblue;
+    }
+
+    .aside{
+        float: left;
+        width: 100%;
+        height: 10vh;
+        background: #1d1c1c;
+        position:fixed;
+        top:90vh;
+    }
+
+    .aside-navigation{
+        margin-top:10px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 2.5vh;
+    }
+
+    .aside-navigation li{
+        text-decoration: none;
+        list-style:none;
+    }
+
+    .aside-navigation a{
+        color:#d2dae2;
+    }
+
+    .fa-facebook-f{
+        font-size:30px;
+        color:rgb(85,85,255);
+    }
+
+    .fa-twitter{
+        font-size:30px;
+        color:rgb(138,138,255);
+    }
+
+    .fa-instagram{
+        font-size:30px;
+        color:#ee293f;
+    }
+
+    .fa-envelope{
+        font-size:30px;
+        color:darkorange;
+    }
+
+    .fa-youtube{
+        font-size:30px;
+        color:#ee293f;
+    }
+}
+
+
